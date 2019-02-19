@@ -1,0 +1,51 @@
+#mainPic {
+    /*margin-left: 10%;
+    margin-right: 10%;*/
+    width: 100%;
+    height: auto;
+	margin-top: 20%;
+}
+
+#Headline {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Georgia";
+}
+
+#TextContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;;
+}
+
+#TextRight {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+#TextLeft {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#Content {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+}
+
+@media only screen and (max-width: 768px) { /*phone*/
+    #TextContent {
+        flex-direction: column;
+    }
+    #TextRight {
+    margin-top:0%;
+    }
+    #TextLeft {
+    margin-bottom: 0%;
+    }
+}

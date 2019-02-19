@@ -1,0 +1,65 @@
+body{
+margin: 0;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  background-color: #9ece16;
+  width: 100%;
+ 
+  margin-bottom: 2%;
+}
+.headBar{
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+
+header img{
+  display: flex;
+  height: 100%;
+  width: 15%;
+}
+
+.headline{
+  
+  text-align: center;
+}
+
+.headline p{
+  height: inherit;
+  margin-top: 1%;
+  margin-bottom: 0px;
+  font-size: calc((15vh * 0.25 + 85vw * 0.1) / 4);
+  font-style: italic;
+  color: #14273f;
+  text-align: center;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-around;
+  height: 50%;
+  background-color: #14273f;
+}
+
+.naviBox{
+  width: 10%;
+  max-height: 96%;
+  border-style: dashed;
+  border-top-width: 2%;
+  border-bottom-width: 2%;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-color: #14273f;
+  text-align: center;
+  background-color: #9ece16;
+}
+
+.naviBox a{
+  text-decoration: none;
+  color: #14273f;
+  font-size: 30px;
+  align-self: center;
+}
