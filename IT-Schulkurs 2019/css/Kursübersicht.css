@@ -1,0 +1,111 @@
+#Content 	{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+			}
+			
+			
+#bild 		{
+	background-image:url(../bilder/Background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+			}	
+			
+			
+ .flex-grid {
+	display: flex;
+	height:200px;
+	flex-direction: row;
+	flex-wrap: wrap;
+  
+			}
+                        
+                        
+                       
+                        
+
+.col 		{
+	flex: 3;
+	background:#FFFFFF;
+  
+	margin-left: 6%;
+	margin-right: 6%;
+	margin-bottom: 6%;
+	margin-top: 6%;
+
+	width: 15%;
+	height: 70%;
+
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+        border-radius:25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+			}                        
+                        
+                        
+#main 		{
+	flex: 3;
+	background:#8181F7;
+  
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 10%;
+	margin-top:6%;
+
+	width: 20%;
+	height:75%;
+
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+        border-radius:25px;
+        
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+			}
+			
+
+       
+a:link,a:visited {
+color: black;
+ 
+
+
+	width: 100%;
+
+   border-radius:25px;
+
+text-align: center;
+text-decoration: none;
+display: inline-block;
+                   }
+.col:hover, .col :active {
+background-color: #E6E6E6;
+   border-radius:25px;
+                   }
+                
+                        
+#div1 {
+	height:300px;
+		}
+
+#div2 {
+	height:300px;
+		}
+
+#div3 {
+	height:300px;
+		}
+
+

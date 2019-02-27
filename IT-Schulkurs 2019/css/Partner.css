@@ -1,0 +1,77 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.Partner{
+    display: flex;
+    flex-direction: row;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: white;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+    width:100%;
+    max-height: 150px;
+}
+
+.PartnerLogo{
+    width: 20%;
+    height: 100%;
+    max-width: 150px;
+    margin-right: 3%;
+}
+.PartnerText{
+    width:80%;
+    height: auto;
+}
+.PartnerText p{
+	margin-bottom:5%;
+}
+	#partner-body{
+		position:relative;
+	}
+	#image {
+		position: relative;
+		z-index: -1;
+	}
+	
+	#content {
+	
+		position: absolute;
+		z-index: 1;
+                display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+    z-index: 1;
+	top:0;
+	left:10%
+	}
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: blue;
+}
+a:hover {
+    color: red;
+}
+.Conrad img{
+	width:150px;
+	height:150px;
+}
+@media only screen and (max-width: 768px) { /*phone*/
+	#content {
+		margin-top:-102%;
+	}
+	.Partner{
+		max-height:75px;	
+	}
+	.PartnerText p{
+		font-size: 60%;	
+	}
+}
